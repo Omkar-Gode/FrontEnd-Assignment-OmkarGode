@@ -1,0 +1,318 @@
+@media (min-width:1152px){
+
+    .divTitle{
+        align-self: flex-start;
+        margin-left: 49px;
+    }
+
+    .scrollbar{
+        margin-top: 49px;
+    }
+
+    .expVRTitle{
+        margin-bottom: 40px;
+    }
+
+    .exploreImg{
+        width: 100%;
+    }
+
+    .moreInfo{
+        width: calc(100% - 97px);
+        margin-top: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 28px;
+        margin-left: 97px;
+        align-self: flex-start;
+    }
+
+    .moreInfoTitle{
+        align-self: flex-start;
+        margin-left: 93px;
+    }
+
+    .moreInfoTitle .underline{
+        display: none;
+    }
+
+    .infoCard{
+        /* width: 299px; */
+        height: 550px;
+        width: 30%;
+        
+
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-evenly;
+    
+        background-image: linear-gradient(to top, rgba(206, 148, 255, 0), rgba(100, 0, 186, 1));
+        border-radius: 12.55px;
+        /* background-color: rgba(100, 0, 186, 1); */
+        /* padding: 3%; */
+        text-align: center;
+    }
+
+    .infoCard h3{
+        font-size: 1rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 22px;
+        margin-top: -32px;
+    }
+
+    .infoCard p{
+        font-size: 0.75rem;
+        font-weight: 300;
+        color: white;
+        width: 70%;
+        text-align: center;
+        justify-self: center;
+        margin-left: 15%;
+    }
+
+    .infoCard .mobileImg{
+        display: none;
+    }
+    .infoCard .desktopImg{
+        width: clamp(123.8px, 16.37vw + 62.41px ,251px);
+        height: clamp(126.71px, 15.99vw + 66.72px ,251px);
+        /* display: none; */
+    }
+}
+
+
+.container{
+    padding-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.divTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 56px;
+}
+
+.divTitle h2{
+    font-size: clamp(1rem, 1.029vw + 0.758rem ,1.5rem);
+    font-weight: 500;
+    color: white;
+}
+
+.expVRTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 56px;
+}
+
+.expVRTitle h2{
+    font-size: clamp(1rem, 2.57vw + 0.39rem ,2.25rem);
+    font-weight: 500;
+    color: white;
+}
+
+.underline{
+    width:70%;
+    height: 3px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.scrollbar{
+    width: 279px;
+    margin-bottom: 56px;
+}
+
+.vrImg{
+    width:120%;
+    margin-top: 28px;
+    margin-bottom: 56px;
+}
+
+.exploreDiv{
+    width: clamp(329px, 60.36vw + 102.64px ,798px);
+    height: clamp(166px, 5.97vw + 144.28px,211px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:14px;
+    /* padding: 14px; */
+    margin-top: 56px;
+    margin-bottom: 84px;
+
+    background-color: #2B2044;
+    box-shadow: 0px 0px 8px rgba(240, 229, 229, 0.25);
+    border-radius: 12px;
+}
+
+.exploreDiv h2{
+    font-size: clamp(1rem, 1.54vw + 0.638rem ,1.75rem);
+    font-weight: 500;
+    color: white;
+}
+
+.exploreDiv p{
+    font-size: clamp(0.875rem, 0.77vw + 0.69rem ,1.25rem);
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    /* width: 70%; */
+}
+
+.buttonDiv{
+    /* width: 59px;
+    height: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    font-size: 1.313rem;
+}
+
+
+.offButton{
+    width: clamp(59px, 6.56vw + 34.38px , 110px);
+    height: clamp(40px, 3.34vw + 27.45px ,66px);
+    font-size: clamp(0.75rem, 0.77vw + 0.569rem ,1.125rem);
+    border: 3px solid #7C91FF;
+    border-radius: 8px;
+    box-shadow: 4px 5px 0px #4A008F;
+}
+
+.onButton{
+    width: clamp(59px, 6.56vw + 34.38px , 110px);
+    height: clamp(40px, 3.34vw + 27.45px ,66px);
+    font-size: clamp(0.75rem, 0.77vw + 0.569rem ,1.125rem);
+    background-color: #3D0075;
+    border: 3px solid #FF00F5;
+    border-radius: 8px;
+    box-shadow: 4px 5px 0px #4A008F;
+    color: white;
+}
+
+.onButton, .offButton:hover{
+    cursor: pointer;
+}
+
+.exploreImgDiv{
+    width: clamp(333.63px, 82.218vw + 25.3px ,972.47px);
+    /* width: 80%; */
+    height: clamp(319px, 25.3vw + 225.37px ,513px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.exploreImgDiv div{
+    width: clamp(333.63px, 82.218vw + 25.3px ,972.47px);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.exploreImgDiv div h1{
+    font-size: clamp(2.25rem, 3.6vw + 1.4rem ,4rem);
+    font-weight: 700;
+    font-family: "Orbitron", sans-serif;
+}
+
+.exploreImgDiv div p{
+    font-size: clamp(1rem, 2.05vw + 0.517rem ,2rem);
+    font-weight: 300;
+    color: white;
+}
+
+.exploreImg{
+    height: clamp(319px, 25.3vw + 225.37px ,513px);
+    margin-top: clamp(-513px, -25.3vw - 225.37px ,-319px);
+}
+
+
+
+
+
+.moreInfoTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 56px;
+}
+
+.moreInfoTitle h2{
+    font-size: clamp(1.156rem, 1.22vw + 0.869rem , 1.75rem);
+    font-weight: 700;
+    color: white;
+}
+
+
+
+@media (max-width:1151px){
+    .infoCard{
+        width: 84%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-evenly;
+        
+        background-image: linear-gradient(to right, rgba(206, 148, 255, 0), rgba(100, 0, 186, 1));
+        border-radius: 12.55px;
+        
+        padding: 3%;
+    }
+
+    .moreInfo{
+        width: 100%;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .infoCard p{
+        font-size: 0.75rem;
+        font-weight: 300;
+        color: white;
+        width: 80%;
+    }
+
+    .infoCard .mobileImg{
+        width: clamp(123.8px, 16.37vw + 62.41px ,251px);
+        height: clamp(126.71px, 15.99vw + 66.72px ,251px);
+    }
+    .infoCard .desktopImg{
+        /* width: clamp(123.8px, 16.37vw + 62.41px ,251px);
+        height: clamp(126.71px, 15.99vw + 66.72px ,251px); */
+        display: none;
+    }
+}
+
+.infoCard h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 22px;
+}
+
+
+

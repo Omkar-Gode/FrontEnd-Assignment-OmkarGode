@@ -1,0 +1,92 @@
+
+
+@media (max-width:1151px){
+    .navhead{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: orange; */
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .logodiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .logodiv p{
+        font-size: 16px;
+        color: white;
+        font-weight: 700;
+    }
+
+
+    .navbar{
+        display: none;
+    }
+    /* .hamburgerMenu{
+        width: ;
+    } */
+}
+
+@media (min-width:1151px){
+    .logodiv p{
+        font-size: 16px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .hamburgerMenu{
+        display: none;
+    }
+
+    .navhead{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: orange; */
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 32px;
+    }
+    
+    .logodiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 5px;
+        margin-top: 56px; */
+    }
+
+    .tab p{
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: rgba(218, 218, 218, 1);
+        margin-bottom: 1px;
+    }
+
+    .underline{
+        width:70%;
+        height: 2px;
+        background-color: white;
+        border-radius: 50px;
+    }
+}
