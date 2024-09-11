@@ -28,9 +28,10 @@
     .navbar{
         display: none;
     }
-    /* .hamburgerMenu{
-        width: ;
-    } */
+
+    .hamburgerMenu:hover{
+        cursor: pointer;
+    }
 }
 
 @media (min-width:1151px){
@@ -52,7 +53,7 @@
         /* background-color: orange; */
         padding-left: 25px;
         padding-right: 25px;
-        margin-bottom: 32px;
+        margin-bottom: 64px;
     }
     
     .logodiv{
@@ -60,12 +61,14 @@
         flex-direction: row;
         align-items: center;
         gap: 8px;
+        margin-left: 20px;
     }
 
     .navbar{
         display: flex;
         flex-direction: row;
-        gap: 32px;
+        gap: 24px;
+        margin-right: 44px;
     }
 
     .tab{
@@ -74,6 +77,10 @@
         align-items: center;
         /* gap: 5px;
         margin-top: 56px; */
+    }
+
+    .tab:hover{
+        cursor: pointer;
     }
 
     .tab p{
@@ -89,4 +96,8 @@
         background-color: white;
         border-radius: 50px;
     }
+}
+
+.logodiv:hover{
+    cursor: pointer;
 }

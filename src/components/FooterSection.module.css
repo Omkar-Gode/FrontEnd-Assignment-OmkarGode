@@ -138,6 +138,7 @@
 
     .submitButton:hover{
         cursor: pointer;
+        /* background-color: #2b1c8b; */
     }
 
     .breakline{
@@ -357,6 +358,7 @@
 
 .submitButton:hover{
     cursor: pointer;
+    background-color: #2b1c8b;
 }
 
 .breakline{
@@ -462,4 +464,13 @@
         /* transform: scale(0.35); */
     }
 
+}
+
+.submitButton:hover{
+    cursor: pointer;
+    background-color: #2b1c8b;
+}
+
+.knowMore:hover{
+    cursor: pointer;
 }

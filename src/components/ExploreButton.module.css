@@ -32,4 +32,5 @@
 
 .container:hover{
     cursor: pointer;
+    background-color: #2b1c8b;
 }

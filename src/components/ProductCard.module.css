@@ -41,6 +41,10 @@
         width: 6px;
     }
 
+    .container div:hover{
+        cursor: pointer;
+    }
+
 }
 
 @media (max-width:1151px){
